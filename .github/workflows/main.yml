@@ -9,6 +9,6 @@ steps:
 id: hola
 uses: actions/repo-docker.action@v1
 with:
-who-to-greet: 'Bruno'
+who-to-greet: "Bruno"
 - name: Obtener la hora de salida
 run: echo "La hora fue ${{ steps.hola.outpus.time }}"
